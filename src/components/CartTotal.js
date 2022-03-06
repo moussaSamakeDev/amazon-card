@@ -29,9 +29,6 @@ function CartTotal({items}) {
   }
 
 
-
-
-
   return (
     <div className='CartTotal'>
         <h3>Subtotal ({getQuantity()} items)
