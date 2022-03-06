@@ -28,7 +28,7 @@ function CartTotal({items}) {
 
   return (
     <div className='CartTotal'>
-        <h3>Subtotal ({getQuantity()} items)
+        <h3>Subtotal ({items.length} items)
             <span className='CartTotal-price' >
               <NumberFormat value={getTotalPrice()} displayType={'text'} thousandSeparator={true} decimalScale={2} prefix={'$'}/>
             </span>
