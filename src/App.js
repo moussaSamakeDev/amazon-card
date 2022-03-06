@@ -4,9 +4,11 @@ import Header from './Header'
 
 function App() {
 
+  const names = ['moussco', 'samake']
+
   return  (
     <div className="App">
-      <Header/>
+      <Header title="Amazon Cart"/>
     </div>
 );
 }
