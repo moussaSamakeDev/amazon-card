@@ -9,6 +9,9 @@
     height: 180px;
     width: 180px;
     margin: 10px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-right: 16px;
 }
 .CartItem-img img {
     object-fit: contain;
@@ -63,4 +66,5 @@
 .CartItem-price {
     font-size: 18px;
     font-weight: 700;
+    margin-left: 16px;
 }
