@@ -9,11 +9,8 @@ function CartTotal({items}) {
   const getTotalPrice = () => {
 
     let total = 0;
-    let quantite = 0;
     items.forEach(item => {
       total += (item.price * item.quantity)
-      quantite += item.quantity
-      // console.log(quantite);
     });
 
     return total
