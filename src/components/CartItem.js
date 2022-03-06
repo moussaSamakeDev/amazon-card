@@ -5,7 +5,7 @@ function CartItem({item}) {
 
 
 
-    console.log(item);
+    // console.log(item);
 
 
   return (
