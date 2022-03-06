@@ -13,8 +13,10 @@ function App() {
       
       <Header title="Amazon Cart"/>
       <div className='App-main'>
-        <CartItems />
-        <CartTotal/>
+        <div className='CartItems-items'>
+          <CartItems />
+        </div>
+          <CartTotal/>
       </div>
     </div>
 );
